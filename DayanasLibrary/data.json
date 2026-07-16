@@ -1,0 +1,105 @@
+{
+  "items": [
+    {
+      "type": "EBook",
+      "item_id": 4,
+      "title": "It",
+      "author": "Стивън Кинг",
+      "year": 1986,
+      "available": true,
+      "file_format": "EPUB",
+      "file_size": 3.8,
+      "borrowers": [
+        2
+      ]
+    },
+    {
+      "type": "Book",
+      "item_id": 2,
+      "title": "The Coworker",
+      "author": "Фрийда Макфадън",
+      "year": 2023,
+      "available": true,
+      "isbn": "9781464218151",
+      "pages": 320
+    },
+    {
+      "type": "Book",
+      "item_id": 1,
+      "title": "The Housemaid",
+      "author": "Фрийда Макфадън",
+      "year": 2022,
+      "available": true,
+      "isbn": "9781538742570",
+      "pages": 336
+    },
+    {
+      "type": "Book",
+      "item_id": 3,
+      "title": "The Shining",
+      "author": "Стивън Кинг",
+      "year": 1977,
+      "available": false,
+      "isbn": "9780307743657",
+      "pages": 447
+    },
+    {
+      "type": "Book",
+      "item_id": 6,
+      "title": "Анна Каренина",
+      "author": "Лев Толстой",
+      "year": 1877,
+      "available": true,
+      "isbn": "9458765432",
+      "pages": 900
+    },
+    {
+      "type": "Book",
+      "item_id": 5,
+      "title": "Под игото",
+      "author": "Иван Вазов",
+      "year": 1894,
+      "available": false,
+      "isbn": "9789540200000",
+      "pages": 320
+    }
+  ],
+  "readers": [
+    {
+      "reader_id": 1,
+      "name": "Иван Чертоянов",
+      "borrowed_items": [
+        3
+      ],
+      "regular_books": [
+        3
+      ]
+    },
+    {
+      "reader_id": 2,
+      "name": "Анна Димитрова",
+      "borrowed_items": [
+        4
+      ],
+      "regular_books": []
+    },
+    {
+      "reader_id": 3,
+      "name": "Виктория Минчева",
+      "borrowed_items": [
+        5
+      ],
+      "regular_books": [
+        5
+      ]
+    },
+    {
+      "reader_id": 4,
+      "name": "Петър Илиянов",
+      "borrowed_items": [],
+      "regular_books": []
+    }
+  ],
+  "next_item_id": 8,
+  "next_reader_id": 5
+}
